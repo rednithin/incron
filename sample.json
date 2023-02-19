@@ -1,0 +1,16 @@
+{
+  "logfile": "/tmp/incron.log",
+  "pidfile": "/tmp/incron.pid",
+  "jobs": [
+    {
+      "label": "Hey this is first task",
+      "watch": "/home/nithin/HDD/Videos",
+      "events": [
+        "Create(File)",
+        "Create(Folder)",
+        "Modify(Name(To))"
+      ],
+      "command": "/home/nithin/Git/incron-rs/scripts/convertvideo.py \"$watched\" \"$filename\" \"$event\" \"/home/nithin/HDD/TVideos\""
+    }
+  ]
+}
