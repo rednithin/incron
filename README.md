@@ -34,6 +34,15 @@ Example: This runs a task of converting video whenever files/folders are created
 }
 ```
 
+# Usage
 
-
-
+```bash
+# Start as a background process
+incron start
+# Stop background process
+incron stop
+# Restart background process
+incron restart
+# Run normally
+incron debug
+```
