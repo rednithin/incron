@@ -1,6 +1,6 @@
 [package]
 name = "incron"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Inspired by incron. You can configure to run scripts based on changes inside a directory"
 license = "MIT OR Apache-2.0"
